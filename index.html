@@ -45,22 +45,15 @@
     <!-- <script src="js/jquery.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(()=> {
             $('#get-api').click(function () {
                 alert('testing');
                 $.get('https://api.publicapis.org/entries', (data, status) =>{
                   console.log('server response', data);
-                // console.log("server api", res.data[0], typeof res.data);
-
-                //     for (let i = 0; i < res.data.leent; i++){
-                //         let allData = res.data[i];
-                //         let tag = 
-
-                //     }
-                // })
+            
             })
         })
-
+    })
     </script>
 </body>
 
