@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    color: blue;
+    
+}
+.sect1{
+    padding: 40px;
+}
+div .h1{
+    color: #ca4b4b;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.display{
+    text-align: center;
+}
+
+.imgs{
+width: 50%;
+}
+.sect2{
+    background: blue;
+    text-align: center;
+    padding: 70px;
+}

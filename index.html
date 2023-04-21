@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Websit</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="sect1">
+        <div class="container">
+            <div class="h1">
+                <h1>Welcome to Lucky Websit</h1>
+            </div>
+            <div class="display">
+                <h2>Lucky Services</h2>
+                <div>
+                    <img class="imgs" src="image/Screenshot_20230412-212222.jpg" alt="">
+                </div>
+                <div>
+                    <img class="imgs" src="image/IMG_20230408_165843_864.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="sect2">
+        <div class="container api">
+            <button type="button" class="btn btn-warning" id="get-api">Get API arrays</button>
+        </div>
+    </section>
+    <!-- <table>
+        <th>s/n</th>
+        <th>API</th>
+        <th>Description</th>
+        <th>Auth</th>
+        <th>Cors</th>
+        <th>Link</th>
+        <th>Caegory</th>
+    </table> -->
+    <!-- <script src="js/jquery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#get-api').click(function () {
+                alert('testing');
+                $.get('https://api.publicapis.org/entries', (data, status) =>{
+                  console.log('server response', data);
+                // console.log("server api", res.data[0], typeof res.data);
+
+                //     for (let i = 0; i < res.data.leent; i++){
+                //         let allData = res.data[i];
+                //         let tag = 
+
+                //     }
+                // })
+            })
+        })
+
+    </script>
+</body>
+
+</html>
